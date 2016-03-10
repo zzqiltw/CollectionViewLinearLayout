@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ZQCollectionViewCell : UICollectionViewCell
-
+- (void)setTextForLabel:(NSString *)text;
 @end

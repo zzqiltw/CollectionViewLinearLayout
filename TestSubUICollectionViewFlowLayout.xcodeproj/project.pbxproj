@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D08A44B1B9B3BDB001EF790 /* ZQHoneyCombLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08A44A1B9B3BDB001EF790 /* ZQHoneyCombLayout.m */; };
+		6D08A44E1B9B3CB4001EF790 /* ZQHoneyCombCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08A44D1B9B3CB4001EF790 /* ZQHoneyCombCell.m */; };
+		6D08A4511B9B3D0C001EF790 /* ZQHoneyCombViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08A4501B9B3D0C001EF790 /* ZQHoneyCombViewController.m */; };
+		6D3BCD041B9AF34600ECCA00 /* ZQCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BCD031B9AF34600ECCA00 /* ZQCircleLayout.m */; };
 		6DA997DE1B9A965600F98649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA997DD1B9A965600F98649 /* main.m */; };
 		6DA997E11B9A965600F98649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA997E01B9A965600F98649 /* AppDelegate.m */; };
 		6DA997E41B9A965600F98649 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA997E31B9A965600F98649 /* ViewController.m */; };
@@ -14,6 +18,8 @@
 		6DA997E91B9A965600F98649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA997E81B9A965600F98649 /* Images.xcassets */; };
 		6DA997EC1B9A965600F98649 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA997EA1B9A965600F98649 /* LaunchScreen.xib */; };
 		6DA997F81B9A965600F98649 /* TestSubUICollectionViewFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA997F71B9A965600F98649 /* TestSubUICollectionViewFlowLayoutTests.m */; };
+		6DA998031B9A99D700F98649 /* ZQCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA998021B9A99D700F98649 /* ZQCollectionViewCell.m */; };
+		6DA998061B9A9B9F00F98649 /* ZQLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA998051B9A9B9F00F98649 /* ZQLinearLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D08A4491B9B3BDB001EF790 /* ZQHoneyCombLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHoneyCombLayout.h; sourceTree = "<group>"; };
+		6D08A44A1B9B3BDB001EF790 /* ZQHoneyCombLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHoneyCombLayout.m; sourceTree = "<group>"; };
+		6D08A44C1B9B3CB4001EF790 /* ZQHoneyCombCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHoneyCombCell.h; sourceTree = "<group>"; };
+		6D08A44D1B9B3CB4001EF790 /* ZQHoneyCombCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHoneyCombCell.m; sourceTree = "<group>"; };
+		6D08A44F1B9B3D0C001EF790 /* ZQHoneyCombViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHoneyCombViewController.h; sourceTree = "<group>"; };
+		6D08A4501B9B3D0C001EF790 /* ZQHoneyCombViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHoneyCombViewController.m; sourceTree = "<group>"; };
+		6D3BCD021B9AF34600ECCA00 /* ZQCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCircleLayout.h; sourceTree = "<group>"; };
+		6D3BCD031B9AF34600ECCA00 /* ZQCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCircleLayout.m; sourceTree = "<group>"; };
 		6DA997D81B9A965600F98649 /* TestSubUICollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSubUICollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA997DC1B9A965600F98649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA997DD1B9A965600F98649 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,10 @@
 		6DA997F11B9A965600F98649 /* TestSubUICollectionViewFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSubUICollectionViewFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA997F61B9A965600F98649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA997F71B9A965600F98649 /* TestSubUICollectionViewFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubUICollectionViewFlowLayoutTests.m; sourceTree = "<group>"; };
+		6DA998011B9A99D700F98649 /* ZQCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCollectionViewCell.h; sourceTree = "<group>"; };
+		6DA998021B9A99D700F98649 /* ZQCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCollectionViewCell.m; sourceTree = "<group>"; };
+		6DA998041B9A9B9F00F98649 /* ZQLinearLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLinearLayout.h; sourceTree = "<group>"; };
+		6DA998051B9A9B9F00F98649 /* ZQLinearLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLinearLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +103,18 @@
 				6DA997E01B9A965600F98649 /* AppDelegate.m */,
 				6DA997E21B9A965600F98649 /* ViewController.h */,
 				6DA997E31B9A965600F98649 /* ViewController.m */,
+				6DA998041B9A9B9F00F98649 /* ZQLinearLayout.h */,
+				6DA998051B9A9B9F00F98649 /* ZQLinearLayout.m */,
+				6D3BCD021B9AF34600ECCA00 /* ZQCircleLayout.h */,
+				6D3BCD031B9AF34600ECCA00 /* ZQCircleLayout.m */,
+				6D08A4491B9B3BDB001EF790 /* ZQHoneyCombLayout.h */,
+				6D08A44A1B9B3BDB001EF790 /* ZQHoneyCombLayout.m */,
+				6D08A44C1B9B3CB4001EF790 /* ZQHoneyCombCell.h */,
+				6D08A44D1B9B3CB4001EF790 /* ZQHoneyCombCell.m */,
+				6D08A44F1B9B3D0C001EF790 /* ZQHoneyCombViewController.h */,
+				6D08A4501B9B3D0C001EF790 /* ZQHoneyCombViewController.m */,
+				6DA998011B9A99D700F98649 /* ZQCollectionViewCell.h */,
+				6DA998021B9A99D700F98649 /* ZQCollectionViewCell.m */,
 				6DA997E51B9A965600F98649 /* Main.storyboard */,
 				6DA997E81B9A965600F98649 /* Images.xcassets */,
 				6DA997EA1B9A965600F98649 /* LaunchScreen.xib */,
@@ -219,9 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA998061B9A9B9F00F98649 /* ZQLinearLayout.m in Sources */,
 				6DA997E41B9A965600F98649 /* ViewController.m in Sources */,
+				6D3BCD041B9AF34600ECCA00 /* ZQCircleLayout.m in Sources */,
+				6D08A44E1B9B3CB4001EF790 /* ZQHoneyCombCell.m in Sources */,
 				6DA997E11B9A965600F98649 /* AppDelegate.m in Sources */,
 				6DA997DE1B9A965600F98649 /* main.m in Sources */,
+				6D08A4511B9B3D0C001EF790 /* ZQHoneyCombViewController.m in Sources */,
+				6DA998031B9A99D700F98649 /* ZQCollectionViewCell.m in Sources */,
+				6D08A44B1B9B3BDB001EF790 /* ZQHoneyCombLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +454,7 @@
 				6DA997FD1B9A965600F98649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DA997FE1B9A965600F98649 /* Build configuration list for PBXNativeTarget "TestSubUICollectionViewFlowLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +463,7 @@
 				6DA998001B9A965600F98649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

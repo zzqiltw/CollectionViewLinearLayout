@@ -10,4 +10,6 @@
 
 @interface ZQHoneyCombLayout : UICollectionViewLayout
 
+@property (nonatomic, assign) CGFloat margin;
+
 @end
